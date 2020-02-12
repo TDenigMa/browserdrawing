@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    margin-bottom: 10px;
+}
+
+#container {
+    display: flex;
+}
+
+#grid {
+    width: 668px;
+    height: 668px;
+    border: 1px solid black;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#buttons {
+    margin-left: 25px;
+}
+
+.cell{
+    text-align: center;
+}
