@@ -8,6 +8,10 @@ body {
     margin-bottom: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
 #container {
     display: flex;
 }
@@ -16,16 +20,21 @@ body {
     width: 668px;
     height: 668px;
     border: 1px solid black;
-    margin-left: 15px;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 #buttons {
-    margin-left: 25px;
+    margin-right: auto;
+    margin-left: 1px;
 }
 
-.cell{
-    text-align: center;
+.reset, .rainbow {
+    height: 90px;
+    width: 90px;
+    border: 4px transparent grey;
+    margin-left: 30px;
+    margin-bottom: 15px;
 }
